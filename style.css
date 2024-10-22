@@ -1,0 +1,65 @@
+
+.container {
+    text-align: center;
+}
+
+.backspace {
+    background-color: rgb(233, 222, 209);
+    box-shadow: 5px 5px 5px;
+}
+.teclado {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 50%;
+}
+
+.tecla {
+    
+    background-color: #020202;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tecla:hover {
+    background-color: #0056b3;
+}
+
+.zero {
+    width: 10%;
+}
+.BRANCO {
+    background-color: white;
+    color: black
+}
+
+.CORRIGE {
+    background-color: red;
+}
+
+.CONFIRMA {
+    
+    background-color: green;
+}
+
+.linhaEspecial {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 50%;
+    padding-bottom: 10px;
+}
