@@ -1,4 +1,12 @@
 
+.retangulo {
+    width: 200px; /* Largura do retângulo */
+    height: 100px; /* Altura do retângulo */
+    background-color: #3498db; /* Cor de fundo */
+    margin: 20px; /* Espaço ao redor do retângulo */
+    border: 2px solid #2980b9; /* Borda */
+    border-radius: 5px;  
+}
 .container {
     text-align: center;
 }
